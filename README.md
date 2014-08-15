@@ -2,7 +2,7 @@
 
 *On demand generation of enterprise-grade PDFs from GitHub-hosted markdown files*
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Build Status](https://travis-ci.org/benbalter/markdown-to-pdf.svg)](https://travis-ci.org/benbalter/markdown-to-pdf) [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Example
 
