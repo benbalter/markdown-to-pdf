@@ -3,10 +3,12 @@ require 'octokit'
 require 'dotenv'
 require 'pdfkit'
 
-Dotenv.load
-
 module MarkdownToPDF
   class App < Sinatra::Base
+
+    configure :development do
+      Dotenv.load
+    end
 
     configure :production do
       require 'rack-ssl-enforcer'

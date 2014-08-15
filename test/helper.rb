@@ -17,6 +17,7 @@ require 'vcr'
 VCR.configure do |c|
   c.cassette_library_dir = File.expand_path 'fixtures/vcr_cassettes', File.dirname(__FILE__)
   c.hook_into :webmock
+  c.filter_sensitive_data('<API TOKEN>') { ENV["GITHUB_TOKEN"] }
 end
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
