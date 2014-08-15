@@ -2,6 +2,8 @@
 
 *On demand generation of enterprise-grade PDFs from GitHub-hosted markdown files*
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## Example
 
 * [This file as a PDF](https://github-pdf.herokuapp.com/benbalter/markdown-to-pdf/blob/master/README.pdf)
