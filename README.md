@@ -24,4 +24,9 @@ Pro-tip: You can swap `.md` for `.pdf` in the URL if you want to be super sneaky
 ## Running locally
 
 1. `bundle install`
-2. `bundle exec rackup`
+2. `bundle exec foreman start`
+
+## Deploying
+
+1. Click the deploy button above
+2. To avoid API rate limits, create a personal access token and expose it as `GITHUB_TOKEN`
