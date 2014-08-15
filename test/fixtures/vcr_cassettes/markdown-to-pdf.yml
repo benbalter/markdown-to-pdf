@@ -1,0 +1,202 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/vnd.github.v3+json
+      User-Agent:
+      - Octokit Ruby Gem 3.3.0
+      Authorization:
+      - token 5ed97e9dd47137dd39bad0e21b8e2b53aef95fee
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 15 Aug 2014 18:49:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4987'
+      X-Ratelimit-Reset:
+      - '1408131200'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Last-Modified:
+      - Fri, 15 Aug 2014 18:47:02 GMT
+      Etag:
+      - "\"979b2576f37c0532f44c08da6bf19e26\""
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      - Accept-Encoding
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 0C827561:6A42:F2E6BE0:53EE564A
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Served-By:
+      - 6d7de9e645814cac34ea2a8d72ba3141
+    body:
+      encoding: UTF-8
+      string: "{\"name\":\"README.md\",\"path\":\"README.md\",\"sha\":\"0dd16b57b1dc93bbae8155bcc26ad78de64aa4d9\",\"size\":1331,\"url\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master\",\"html_url\":\"https://github.com/benbalter/markdown-to-pdf/blob/master/README.md\",\"git_url\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/git/blobs/0dd16b57b1dc93bbae8155bcc26ad78de64aa4d9\",\"type\":\"file\",\"content\":\"IyBNYXJrZG93biB0byBQREYKCipPbiBkZW1hbmQgZ2VuZXJhdGlvbiBvZiBl\\nbnRlcnByaXNlLWdyYWRlIFBERnMgZnJvbSBHaXRIdWItaG9zdGVkIG1hcmtk\\nb3duIGZpbGVzKgoKWyFbRGVwbG95IHRvIEhlcm9rdV0oaHR0cHM6Ly93d3cu\\naGVyb2t1Y2RuLmNvbS9kZXBsb3kvYnV0dG9uLnBuZyldKGh0dHBzOi8vaGVy\\nb2t1LmNvbS9kZXBsb3kpCgojIyBFeGFtcGxlCgoqIFtUaGlzIGZpbGUgYXMg\\nYSBQREZdKGh0dHBzOi8vZ2l0aHViLXBkZi5oZXJva3VhcHAuY29tL2JlbmJh\\nbHRlci9tYXJrZG93bi10by1wZGYvYmxvYi9tYXN0ZXIvUkVBRE1FLnBkZikK\\nKiBbVGhpcyBmaWxlIGFzIG1hcmtkb3duXShodHRwczovL2dpdGh1Yi5jb20v\\nYmVuYmFsdGVyL21hcmtkb3duLXRvLXBkZi9ibG9iL21hc3Rlci9SRUFETUUu\\nbWQpCgojIyBIdWg/IFlvdSdyZSBqdXN0IHRyb2xsaW4nLCByaWdodD8KCk5v\\ndCBhdCBhbGwuIE1hcmtkb3duIG1heSBiZSB0aGUgKmxpbmdhIGZyYW5jYSog\\nZm9yIHNvZnR3YXJlIGFuZCBvdGhlciB0ZWNobmljYWwgZG9jdW1lbnRhdGlv\\nbiwgYnV0IG1hbnkgc3VpdC1hbmQtdGllIHdlYXJpbmcgQ0lPLXR5cGVzIHdv\\nbid0IHRha2UgaW5mb3JtYXRpb24gc2VyaW91c2x5IHVubGVzcyBpdCdzIHBy\\nZXNlbnRlZCBhcyBhIFBERiBvciBQb3dlclBvaW50IGRlY2suCgpXaXRoIHRo\\naXMgYXBwIHlvdSBjYW4gc2VuZCB0aGVtIGEgbGluayB0byBhIGNyaXNwLCBj\\nbGVhbiwgImVudGVycHJpc2UtZ3JhZGUiIFBERiwgdHJhbnNwYXJlbnRseSBn\\nZW5lcmF0ZWQgb24gZGVtYW5kIGZyb20gYSBzdGFuZGFyZCBtYXJrZG93biBm\\naWxlIGhvc3RlZCBvbiBHaXRIdWIuY29tLgoKIyMgVXNhZ2UKClNpbXBseSBz\\nd2FwIGBnaXRodWIuY29tYCBmb3IgeW91ciBpbnN0YW5jZSdzIGhvc3RuYW1l\\nIGluIHRoZSBwYXRoIHRvIHRoZSBibG9iIHZpZXcgb2YgYW55IG1hcmtkb3du\\nIGZpbGUgb24gR2l0SHViLmNvbS4KClByby10aXA6IFlvdSBjYW4gc3dhcCBg\\nLm1kYCBmb3IgYC5wZGZgIGluIHRoZSBVUkwgaWYgeW91IHdhbnQgdG8gYmUg\\nc3VwZXIgc25lYWt5LiBNYXJrZG93biB0byBQREYgd2lsbCBzaWxlbnRseSBz\\nd2l0Y2ggaXQgYmFjayB0byBQREYgYmVmb3JlIHJlcXVlc3RpbmcgdGhlIGZp\\nbGUuCgojIyBSdW5uaW5nIGxvY2FsbHkKCjEuIGBzY3JpcHQvYm9vdHN0cmFw\\nYAoyLiBgc2NyaXB0L3NlcnZlcmAKCiMjIERlcGxveWluZwoKMS4gQ2xpY2sg\\ndGhlIGRlcGxveSBidXR0b24gYWJvdmUKMi4gVG8gYXZvaWQgQVBJIHJhdGUg\\nbGltaXRzLCBjcmVhdGUgYSBwZXJzb25hbCBhY2Nlc3MgdG9rZW4gYW5kIGV4\\ncG9zZSBpdCBhcyBgR0lUSFVCX1RPS0VOYAo=\\n\",\"encoding\":\"base64\",\"_links\":{\"self\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master\",\"git\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/git/blobs/0dd16b57b1dc93bbae8155bcc26ad78de64aa4d9\",\"html\":\"https://github.com/benbalter/markdown-to-pdf/blob/master/README.md\"}}"
+    http_version: 
+  recorded_at: Fri, 15 Aug 2014 18:49:50 GMT
+- request:
+    method: post
+    uri: https://api.github.com/markdown
+    body:
+      encoding: UTF-8
+      string: "{\"context\":\"benbalter/markdown-to-pdf\",\"text\":\"# Markdown to
+        PDF\\n\\n*On demand generation of enterprise-grade PDFs from GitHub-hosted
+        markdown files*\\n\\n[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)\\n\\n##
+        Example\\n\\n* [This file as a PDF](https://github-pdf.herokuapp.com/benbalter/markdown-to-pdf/blob/master/README.pdf)\\n*
+        [This file as markdown](https://github.com/benbalter/markdown-to-pdf/blob/master/README.md)\\n\\n##
+        Huh? You're just trollin', right?\\n\\nNot at all. Markdown may be the *linga
+        franca* for software and other technical documentation, but many suit-and-tie
+        wearing CIO-types won't take information seriously unless it's presented as
+        a PDF or PowerPoint deck.\\n\\nWith this app you can send them a link to a
+        crisp, clean, \\\"enterprise-grade\\\" PDF, transparently generated on demand
+        from a standard markdown file hosted on GitHub.com.\\n\\n## Usage\\n\\nSimply
+        swap `github.com` for your instance's hostname in the path to the blob view
+        of any markdown file on GitHub.com.\\n\\nPro-tip: You can swap `.md` for `.pdf`
+        in the URL if you want to be super sneaky. Markdown to PDF will silently switch
+        it back to PDF before requesting the file.\\n\\n## Running locally\\n\\n1.
+        `script/bootstrap`\\n2. `script/server`\\n\\n## Deploying\\n\\n1. Click the
+        deploy button above\\n2. To avoid API rate limits, create a personal access
+        token and expose it as `GITHUB_TOKEN`\\n\"}"
+    headers:
+      Accept:
+      - application/vnd.github.raw
+      User-Agent:
+      - Octokit Ruby Gem 3.3.0
+      Authorization:
+      - token 5ed97e9dd47137dd39bad0e21b8e2b53aef95fee
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 15 Aug 2014 18:49:51 GMT
+      Content-Type:
+      - text/html;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4986'
+      X-Ratelimit-Reset:
+      - '1408131200'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - deny
+      Content-Security-Policy:
+      - default-src 'none'
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Github-Request-Id:
+      - 0C827561:6A3E:2756704:53EE564D
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains
+      X-Content-Type-Options:
+      - nosniff
+      Vary:
+      - Accept-Encoding
+      X-Served-By:
+      - a8d8e492d6966f0c23dee2eed64c678a
+    body:
+      encoding: UTF-8
+      string: |-
+        <h1>
+        <a name="user-content-markdown-to-pdf" class="anchor" href="#markdown-to-pdf" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown to PDF</h1>
+
+        <p><em>On demand generation of enterprise-grade PDFs from GitHub-hosted markdown files</em></p>
+
+        <p><a href="https://heroku.com/deploy"><img src="https://camo.githubusercontent.com/c0824806f5221ebb7d25e559568582dd39dd1170/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e706e67" alt="Deploy to Heroku" data-canonical-src="https://www.herokucdn.com/deploy/button.png" style="max-width:100%;"></a></p>
+
+        <h2>
+        <a name="user-content-example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+
+        <ul>
+        <li><a href="https://github-pdf.herokuapp.com/benbalter/markdown-to-pdf/blob/master/README.pdf">This file as a PDF</a></li>
+        <li><a href="https://github.com/benbalter/markdown-to-pdf/blob/master/README.md">This file as markdown</a></li>
+        </ul><h2>
+        <a name="user-content-huh-youre-just-trollin-right" class="anchor" href="#huh-youre-just-trollin-right" aria-hidden="true"><span class="octicon octicon-link"></span></a>Huh? You're just trollin', right?</h2>
+
+        <p>Not at all. Markdown may be the <em>linga franca</em> for software and other technical documentation, but many suit-and-tie wearing CIO-types won't take information seriously unless it's presented as a PDF or PowerPoint deck.</p>
+
+        <p>With this app you can send them a link to a crisp, clean, "enterprise-grade" PDF, transparently generated on demand from a standard markdown file hosted on GitHub.com.</p>
+
+        <h2>
+        <a name="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+        <p>Simply swap <code>github.com</code> for your instance's hostname in the path to the blob view of any markdown file on GitHub.com.</p>
+
+        <p>Pro-tip: You can swap <code>.md</code> for <code>.pdf</code> in the URL if you want to be super sneaky. Markdown to PDF will silently switch it back to PDF before requesting the file.</p>
+
+        <h2>
+        <a name="user-content-running-locally" class="anchor" href="#running-locally" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running locally</h2>
+
+        <ol>
+        <li><code>script/bootstrap</code></li>
+        <li><code>script/server</code></li>
+        </ol><h2>
+        <a name="user-content-deploying" class="anchor" href="#deploying" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deploying</h2>
+
+        <ol>
+        <li>Click the deploy button above</li>
+        <li>To avoid API rate limits, create a personal access token and expose it as <code>GITHUB_TOKEN</code>
+        </li>
+        </ol>
+    http_version: 
+  recorded_at: Fri, 15 Aug 2014 18:49:53 GMT
+recorded_with: VCR 2.9.2

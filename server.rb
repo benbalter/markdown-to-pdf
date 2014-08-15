@@ -30,12 +30,14 @@ module MarkdownToPDF
     end
 
     def markdown
-      response = client.contents nwo, { :path => path, :ref => ref }
-      Base64.decode64 response.content
+      @markdown ||= begin
+        response = client.contents nwo, { :path => path, :ref => ref }
+        Base64.decode64 response.content
+      end
     end
 
     def html
-      client.markdown markdown, :context => nwo
+      @html ||= client.markdown markdown, :context => nwo
     end
 
     def stylesheet

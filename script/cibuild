@@ -1,0 +1,3 @@
+set -e
+
+bundle exec rake test
