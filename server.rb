@@ -39,7 +39,7 @@ module MarkdownToPDF
     end
 
     def stylesheet
-      File.expand_path "bower_components/bootstrap/dist/css/bootstrap.css", File.dirname( __FILE__ )
+      File.expand_path "public/bootstrap/dist/css/bootstrap.css", File.dirname( __FILE__ )
     end
 
     def kit
