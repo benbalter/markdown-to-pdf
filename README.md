@@ -23,8 +23,8 @@ Pro-tip: You can swap `.md` for `.pdf` in the URL if you want to be super sneaky
 
 ## Running locally
 
-1. `bundle install`
-2. `bundle exec foreman start`
+1. `script/bootstrap`
+2. `script/server`
 
 ## Deploying
 
