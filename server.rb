@@ -20,7 +20,7 @@ module MarkdownToPDF
     end
 
     def path
-      params["path"].gsub /\.pdf$/, ".md"
+      params["splat"].join("/").gsub /\.pdf$/, ".md"
     end
 
     def ref
@@ -54,7 +54,7 @@ module MarkdownToPDF
       end
     end
 
-    get "/:owner/:repo/blob/:ref/:path" do
+    get "/:owner/:repo/blob/:ref/*" do
       content_type "application/pdf"
       kit.to_pdf
     end

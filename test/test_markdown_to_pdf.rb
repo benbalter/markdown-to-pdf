@@ -9,7 +9,7 @@ class TestMarkdownToPDF < Minitest::Test
     app.params = {
       "owner" => "benbalter",
       "repo" => "markdown-to-pdf",
-      "path" => "README.md",
+      "splat" => ["README.md"],
       "ref" => "master"
     }
   end
@@ -27,8 +27,13 @@ class TestMarkdownToPDF < Minitest::Test
   end
 
   def test_swaps_pdf_extension
-    app.params["path"] = "README.pdf"
+    app.params["splat"] = ["README.pdf"]
     assert_equal "README.md", app.path
+  end
+
+  def test_handles_subdirs
+    app.params["splat"] = ["foo", "README.pdf"]
+    assert_equal "foo/README.md", app.path
   end
 
   def test_knows_ref
