@@ -34,7 +34,7 @@ module MarkdownToPDF
     def markdown
       @markdown ||= begin
         response = client.contents nwo, { :path => path, :ref => ref }
-        Base64.decode64 response.content
+        Base64.decode64(response.content).force_encoding("utf-8")
       end
     end
 
