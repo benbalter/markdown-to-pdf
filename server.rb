@@ -8,6 +8,11 @@ Dotenv.load
 module MarkdownToPDF
   class App < Sinatra::Base
 
+    configure :production do
+      require 'rack-ssl-enforcer'
+      use Rack::SslEnforcer
+    end
+
     def nwo
       "#{params["owner"]}/#{params["repo"]}"
     end
