@@ -11,7 +11,7 @@
 
 ## Huh? You're just trollin', right?
 
-Not at all. Markdown may be the *linga franca* for software and other technical documentation, but many suit-and-tie wearing CIO-types won't take information seriously unless it's presented as a PDF or PowerPoint deck.
+Not at all. Markdown may be the *lingua franca* for software and other technical documentation, but many suit-and-tie wearing CIO-types won't take information seriously unless it's presented as a PDF or PowerPoint deck.
 
 With this app you can send them a link to a crisp, clean, "enterprise-grade" PDF, transparently generated on demand from a standard markdown file hosted on GitHub.com.
 
