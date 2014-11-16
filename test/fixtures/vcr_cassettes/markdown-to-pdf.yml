@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 15 Aug 2014 19:23:15 GMT
+      - Sun, 16 Nov 2014 21:38:47 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,15 +31,15 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '59'
+      - '57'
       X-Ratelimit-Reset:
-      - '1408134195'
+      - '1416176921'
       Cache-Control:
       - public, max-age=60, s-maxage=60
       Last-Modified:
-      - Fri, 15 Aug 2014 19:21:16 GMT
+      - Sun, 17 Aug 2014 19:56:18 GMT
       Etag:
-      - "\"3a469e627ced6ae9778319ff2e90ae27\""
+      - "\"dee3fe557f0a900854e03e4ba032cc55\""
       Vary:
       - Accept
       - Accept-Encoding
@@ -59,18 +59,18 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 0C827561:4A6D:F4F4084:53EE5E23
+      - 62CC39D7:6BA9:1C1A6EA0:54691967
       Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains
+      - max-age=31536000; includeSubdomains; preload
       X-Content-Type-Options:
       - nosniff
       X-Served-By:
-      - d818ddef80f4c7d10683dd483558952a
+      - 2811da37fbdda4367181b328b22b2499
     body:
       encoding: UTF-8
-      string: "{\"name\":\"README.md\",\"path\":\"README.md\",\"sha\":\"c8aef78da83cd90704d6dadc78bd1688f5683729\",\"size\":1451,\"url\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master\",\"html_url\":\"https://github.com/benbalter/markdown-to-pdf/blob/master/README.md\",\"git_url\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/git/blobs/c8aef78da83cd90704d6dadc78bd1688f5683729\",\"type\":\"file\",\"content\":\"IyBNYXJrZG93biB0byBQREYKCipPbiBkZW1hbmQgZ2VuZXJhdGlvbiBvZiBl\\nbnRlcnByaXNlLWdyYWRlIFBERnMgZnJvbSBHaXRIdWItaG9zdGVkIG1hcmtk\\nb3duIGZpbGVzKgoKWyFbQnVpbGQgU3RhdHVzXShodHRwczovL3RyYXZpcy1j\\naS5vcmcvYmVuYmFsdGVyL21hcmtkb3duLXRvLXBkZi5zdmcpXShodHRwczov\\nL3RyYXZpcy1jaS5vcmcvYmVuYmFsdGVyL21hcmtkb3duLXRvLXBkZikgWyFb\\nRGVwbG95IHRvIEhlcm9rdV0oaHR0cHM6Ly93d3cuaGVyb2t1Y2RuLmNvbS9k\\nZXBsb3kvYnV0dG9uLnBuZyldKGh0dHBzOi8vaGVyb2t1LmNvbS9kZXBsb3kp\\nCgojIyBFeGFtcGxlCgoqIFtUaGlzIGZpbGUgYXMgYSBQREZdKGh0dHBzOi8v\\nZ2l0aHViLXBkZi5oZXJva3VhcHAuY29tL2JlbmJhbHRlci9tYXJrZG93bi10\\nby1wZGYvYmxvYi9tYXN0ZXIvUkVBRE1FLnBkZikKKiBbVGhpcyBmaWxlIGFz\\nIG1hcmtkb3duXShodHRwczovL2dpdGh1Yi5jb20vYmVuYmFsdGVyL21hcmtk\\nb3duLXRvLXBkZi9ibG9iL21hc3Rlci9SRUFETUUubWQpCgojIyBIdWg/IFlv\\ndSdyZSBqdXN0IHRyb2xsaW4nLCByaWdodD8KCk5vdCBhdCBhbGwuIE1hcmtk\\nb3duIG1heSBiZSB0aGUgKmxpbmdhIGZyYW5jYSogZm9yIHNvZnR3YXJlIGFu\\nZCBvdGhlciB0ZWNobmljYWwgZG9jdW1lbnRhdGlvbiwgYnV0IG1hbnkgc3Vp\\ndC1hbmQtdGllIHdlYXJpbmcgQ0lPLXR5cGVzIHdvbid0IHRha2UgaW5mb3Jt\\nYXRpb24gc2VyaW91c2x5IHVubGVzcyBpdCdzIHByZXNlbnRlZCBhcyBhIFBE\\nRiBvciBQb3dlclBvaW50IGRlY2suCgpXaXRoIHRoaXMgYXBwIHlvdSBjYW4g\\nc2VuZCB0aGVtIGEgbGluayB0byBhIGNyaXNwLCBjbGVhbiwgImVudGVycHJp\\nc2UtZ3JhZGUiIFBERiwgdHJhbnNwYXJlbnRseSBnZW5lcmF0ZWQgb24gZGVt\\nYW5kIGZyb20gYSBzdGFuZGFyZCBtYXJrZG93biBmaWxlIGhvc3RlZCBvbiBH\\naXRIdWIuY29tLgoKIyMgVXNhZ2UKClNpbXBseSBzd2FwIGBnaXRodWIuY29t\\nYCBmb3IgeW91ciBpbnN0YW5jZSdzIGhvc3RuYW1lIGluIHRoZSBwYXRoIHRv\\nIHRoZSBibG9iIHZpZXcgb2YgYW55IG1hcmtkb3duIGZpbGUgb24gR2l0SHVi\\nLmNvbS4KClByby10aXA6IFlvdSBjYW4gc3dhcCBgLm1kYCBmb3IgYC5wZGZg\\nIGluIHRoZSBVUkwgaWYgeW91IHdhbnQgdG8gYmUgc3VwZXIgc25lYWt5LiBN\\nYXJrZG93biB0byBQREYgd2lsbCBzaWxlbnRseSBzd2l0Y2ggaXQgYmFjayB0\\nbyBQREYgYmVmb3JlIHJlcXVlc3RpbmcgdGhlIGZpbGUuCgojIyBSdW5uaW5n\\nIGxvY2FsbHkKCjEuIGBzY3JpcHQvYm9vdHN0cmFwYAoyLiBgc2NyaXB0L3Nl\\ncnZlcmAKCiMjIERlcGxveWluZwoKMS4gQ2xpY2sgdGhlIGRlcGxveSBidXR0\\nb24gYWJvdmUKMi4gVG8gYXZvaWQgQVBJIHJhdGUgbGltaXRzLCBjcmVhdGUg\\nYSBwZXJzb25hbCBhY2Nlc3MgdG9rZW4gYW5kIGV4cG9zZSBpdCBhcyBgR0lU\\nSFVCX1RPS0VOYAo=\\n\",\"encoding\":\"base64\",\"_links\":{\"self\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master\",\"git\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/git/blobs/c8aef78da83cd90704d6dadc78bd1688f5683729\",\"html\":\"https://github.com/benbalter/markdown-to-pdf/blob/master/README.md\"}}"
+      string: "{\"name\":\"README.md\",\"path\":\"README.md\",\"sha\":\"6f1f2e7846d769b76d94104a3a53127e6b58450f\",\"size\":1452,\"url\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master\",\"html_url\":\"https://github.com/benbalter/markdown-to-pdf/blob/master/README.md\",\"git_url\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/git/blobs/6f1f2e7846d769b76d94104a3a53127e6b58450f\",\"type\":\"file\",\"content\":\"IyBNYXJrZG93biB0byBQREYKCipPbiBkZW1hbmQgZ2VuZXJhdGlvbiBvZiBl\\nbnRlcnByaXNlLWdyYWRlIFBERnMgZnJvbSBHaXRIdWItaG9zdGVkIG1hcmtk\\nb3duIGZpbGVzKgoKWyFbQnVpbGQgU3RhdHVzXShodHRwczovL3RyYXZpcy1j\\naS5vcmcvYmVuYmFsdGVyL21hcmtkb3duLXRvLXBkZi5zdmcpXShodHRwczov\\nL3RyYXZpcy1jaS5vcmcvYmVuYmFsdGVyL21hcmtkb3duLXRvLXBkZikgWyFb\\nRGVwbG95IHRvIEhlcm9rdV0oaHR0cHM6Ly93d3cuaGVyb2t1Y2RuLmNvbS9k\\nZXBsb3kvYnV0dG9uLnBuZyldKGh0dHBzOi8vaGVyb2t1LmNvbS9kZXBsb3kp\\nCgojIyBFeGFtcGxlCgoqIFtUaGlzIGZpbGUgYXMgYSBQREZdKGh0dHBzOi8v\\nZ2l0aHViLXBkZi5oZXJva3VhcHAuY29tL2JlbmJhbHRlci9tYXJrZG93bi10\\nby1wZGYvYmxvYi9tYXN0ZXIvUkVBRE1FLnBkZikKKiBbVGhpcyBmaWxlIGFz\\nIG1hcmtkb3duXShodHRwczovL2dpdGh1Yi5jb20vYmVuYmFsdGVyL21hcmtk\\nb3duLXRvLXBkZi9ibG9iL21hc3Rlci9SRUFETUUubWQpCgojIyBIdWg/IFlv\\ndSdyZSBqdXN0IHRyb2xsaW4nLCByaWdodD8KCk5vdCBhdCBhbGwuIE1hcmtk\\nb3duIG1heSBiZSB0aGUgKmxpbmd1YSBmcmFuY2EqIGZvciBzb2Z0d2FyZSBh\\nbmQgb3RoZXIgdGVjaG5pY2FsIGRvY3VtZW50YXRpb24sIGJ1dCBtYW55IHN1\\naXQtYW5kLXRpZSB3ZWFyaW5nIENJTy10eXBlcyB3b24ndCB0YWtlIGluZm9y\\nbWF0aW9uIHNlcmlvdXNseSB1bmxlc3MgaXQncyBwcmVzZW50ZWQgYXMgYSBQ\\nREYgb3IgUG93ZXJQb2ludCBkZWNrLgoKV2l0aCB0aGlzIGFwcCB5b3UgY2Fu\\nIHNlbmQgdGhlbSBhIGxpbmsgdG8gYSBjcmlzcCwgY2xlYW4sICJlbnRlcnBy\\naXNlLWdyYWRlIiBQREYsIHRyYW5zcGFyZW50bHkgZ2VuZXJhdGVkIG9uIGRl\\nbWFuZCBmcm9tIGEgc3RhbmRhcmQgbWFya2Rvd24gZmlsZSBob3N0ZWQgb24g\\nR2l0SHViLmNvbS4KCiMjIFVzYWdlCgpTaW1wbHkgc3dhcCBgZ2l0aHViLmNv\\nbWAgZm9yIHlvdXIgaW5zdGFuY2UncyBob3N0bmFtZSBpbiB0aGUgcGF0aCB0\\nbyB0aGUgYmxvYiB2aWV3IG9mIGFueSBtYXJrZG93biBmaWxlIG9uIEdpdEh1\\nYi5jb20uCgpQcm8tdGlwOiBZb3UgY2FuIHN3YXAgYC5tZGAgZm9yIGAucGRm\\nYCBpbiB0aGUgVVJMIGlmIHlvdSB3YW50IHRvIGJlIHN1cGVyIHNuZWFreS4g\\nTWFya2Rvd24gdG8gUERGIHdpbGwgc2lsZW50bHkgc3dpdGNoIGl0IGJhY2sg\\ndG8gUERGIGJlZm9yZSByZXF1ZXN0aW5nIHRoZSBmaWxlLgoKIyMgUnVubmlu\\nZyBsb2NhbGx5CgoxLiBgc2NyaXB0L2Jvb3RzdHJhcGAKMi4gYHNjcmlwdC9z\\nZXJ2ZXJgCgojIyBEZXBsb3lpbmcKCjEuIENsaWNrIHRoZSBkZXBsb3kgYnV0\\ndG9uIGFib3ZlCjIuIFRvIGF2b2lkIEFQSSByYXRlIGxpbWl0cywgY3JlYXRl\\nIGEgcGVyc29uYWwgYWNjZXNzIHRva2VuIGFuZCBleHBvc2UgaXQgYXMgYEdJ\\nVEhVQl9UT0tFTmAK\\n\",\"encoding\":\"base64\",\"_links\":{\"self\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/contents/README.md?ref=master\",\"git\":\"https://api.github.com/repos/benbalter/markdown-to-pdf/git/blobs/6f1f2e7846d769b76d94104a3a53127e6b58450f\",\"html\":\"https://github.com/benbalter/markdown-to-pdf/blob/master/README.md\"}}"
     http_version: 
-  recorded_at: Fri, 15 Aug 2014 19:23:17 GMT
+  recorded_at: Sun, 16 Nov 2014 21:38:48 GMT
 - request:
     method: post
     uri: https://api.github.com/markdown
@@ -82,7 +82,7 @@ http_interactions:
         [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)\\n\\n##
         Example\\n\\n* [This file as a PDF](https://github-pdf.herokuapp.com/benbalter/markdown-to-pdf/blob/master/README.pdf)\\n*
         [This file as markdown](https://github.com/benbalter/markdown-to-pdf/blob/master/README.md)\\n\\n##
-        Huh? You're just trollin', right?\\n\\nNot at all. Markdown may be the *linga
+        Huh? You're just trollin', right?\\n\\nNot at all. Markdown may be the *lingua
         franca* for software and other technical documentation, but many suit-and-tie
         wearing CIO-types won't take information seriously unless it's presented as
         a PDF or PowerPoint deck.\\n\\nWith this app you can send them a link to a
@@ -110,7 +110,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Fri, 15 Aug 2014 19:23:17 GMT
+      - Sun, 16 Nov 2014 21:38:47 GMT
       Content-Type:
       - text/html;charset=utf-8
       Transfer-Encoding:
@@ -120,9 +120,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '58'
+      - '56'
       X-Ratelimit-Reset:
-      - '1408134195'
+      - '1416176921'
       X-Xss-Protection:
       - 1; mode=block
       X-Frame-Options:
@@ -137,53 +137,57 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       X-Github-Request-Id:
-      - 0C827561:4A6A:50D2E87:53EE5E25
+      - 62CC39D7:6BA8:17815FA0:54691967
       Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains
+      - max-age=31536000; includeSubdomains; preload
       X-Content-Type-Options:
       - nosniff
       Vary:
       - Accept-Encoding
       X-Served-By:
-      - 62a1303ae95931e56e387e87d354bb24
+      - 474556b853193c38f1b14328ce2d1b7d
     body:
       encoding: UTF-8
-      string: |-
+      string: |
         <h1>
-        <a name="user-content-markdown-to-pdf" class="anchor" href="#markdown-to-pdf" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown to PDF</h1>
+        <a id="user-content-markdown-to-pdf" class="anchor" href="#markdown-to-pdf" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown to PDF</h1>
 
         <p><em>On demand generation of enterprise-grade PDFs from GitHub-hosted markdown files</em></p>
 
         <p><a href="https://travis-ci.org/benbalter/markdown-to-pdf"><img src="https://camo.githubusercontent.com/6a3e6ca2da3901d80985229b54909938c4201f35/68747470733a2f2f7472617669732d63692e6f72672f62656e62616c7465722f6d61726b646f776e2d746f2d7064662e737667" alt="Build Status" data-canonical-src="https://travis-ci.org/benbalter/markdown-to-pdf.svg" style="max-width:100%;"></a> <a href="https://heroku.com/deploy"><img src="https://camo.githubusercontent.com/c0824806f5221ebb7d25e559568582dd39dd1170/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e706e67" alt="Deploy to Heroku" data-canonical-src="https://www.herokucdn.com/deploy/button.png" style="max-width:100%;"></a></p>
 
         <h2>
-        <a name="user-content-example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
+        <a id="user-content-example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h2>
 
         <ul>
         <li><a href="https://github-pdf.herokuapp.com/benbalter/markdown-to-pdf/blob/master/README.pdf">This file as a PDF</a></li>
         <li><a href="https://github.com/benbalter/markdown-to-pdf/blob/master/README.md">This file as markdown</a></li>
-        </ul><h2>
-        <a name="user-content-huh-youre-just-trollin-right" class="anchor" href="#huh-youre-just-trollin-right" aria-hidden="true"><span class="octicon octicon-link"></span></a>Huh? You're just trollin', right?</h2>
+        </ul>
 
-        <p>Not at all. Markdown may be the <em>linga franca</em> for software and other technical documentation, but many suit-and-tie wearing CIO-types won't take information seriously unless it's presented as a PDF or PowerPoint deck.</p>
+        <h2>
+        <a id="user-content-huh-youre-just-trollin-right" class="anchor" href="#huh-youre-just-trollin-right" aria-hidden="true"><span class="octicon octicon-link"></span></a>Huh? You're just trollin', right?</h2>
+
+        <p>Not at all. Markdown may be the <em>lingua franca</em> for software and other technical documentation, but many suit-and-tie wearing CIO-types won't take information seriously unless it's presented as a PDF or PowerPoint deck.</p>
 
         <p>With this app you can send them a link to a crisp, clean, "enterprise-grade" PDF, transparently generated on demand from a standard markdown file hosted on GitHub.com.</p>
 
         <h2>
-        <a name="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+        <a id="user-content-usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
 
         <p>Simply swap <code>github.com</code> for your instance's hostname in the path to the blob view of any markdown file on GitHub.com.</p>
 
         <p>Pro-tip: You can swap <code>.md</code> for <code>.pdf</code> in the URL if you want to be super sneaky. Markdown to PDF will silently switch it back to PDF before requesting the file.</p>
 
         <h2>
-        <a name="user-content-running-locally" class="anchor" href="#running-locally" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running locally</h2>
+        <a id="user-content-running-locally" class="anchor" href="#running-locally" aria-hidden="true"><span class="octicon octicon-link"></span></a>Running locally</h2>
 
         <ol>
         <li><code>script/bootstrap</code></li>
         <li><code>script/server</code></li>
-        </ol><h2>
-        <a name="user-content-deploying" class="anchor" href="#deploying" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deploying</h2>
+        </ol>
+
+        <h2>
+        <a id="user-content-deploying" class="anchor" href="#deploying" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deploying</h2>
 
         <ol>
         <li>Click the deploy button above</li>
@@ -191,5 +195,5 @@ http_interactions:
         </li>
         </ol>
     http_version: 
-  recorded_at: Fri, 15 Aug 2014 19:23:19 GMT
+  recorded_at: Sun, 16 Nov 2014 21:38:48 GMT
 recorded_with: VCR 2.9.2
