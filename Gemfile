@@ -8,7 +8,7 @@ gem "dotenv"
 gem "rack-ssl-enforcer"
 gem "foreman"
 
-group :development do
+group :test do
   gem "rake"
   gem "vcr"
   gem "shoulda"
