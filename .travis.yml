@@ -1,4 +1,4 @@
 language: ruby
 before_install: "sudo apt-get update"
-install: "sudo apt-get install libjpeg62:i386"
+install: "sudo apt-get install libjpeg62:i386; script/bootstrap"
 script: "script/cibuild"
