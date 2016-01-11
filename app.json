@@ -1,6 +1,5 @@
 {
   "name": "Markdown to PDF",
   "description": "On demand generation of enterprise-grade PDFs from GitHub-hosted markdown files",
-  "repository": "https://github.com/benbalter/markdown-to-pdf",
-
+  "repository": "https://github.com/benbalter/markdown-to-pdf"
 }
