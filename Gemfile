@@ -3,10 +3,17 @@ source "https://rubygems.org"
 gem "sinatra"
 gem "octokit"
 gem "pdfkit"
-gem "wkhtmltopdf-binary", git: "https://github.com/zakird/wkhtmltopdf_binary_gem"
 gem "dotenv"
 gem "rack-ssl-enforcer"
 gem "foreman"
+
+group :production do
+  gem 'wkhtmltopdf-heroku'
+end
+
+group :development, :test do
+  gem 'wkhtmltopdf-binary-edge'
+end
 
 group :test do
   gem "rake"
