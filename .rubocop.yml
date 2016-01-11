@@ -1,0 +1,6 @@
+Style/Documentation:
+  Enabled: false
+
+Lint/EndAlignment:
+  AlignWith: variable
+  AutoCorrect: true

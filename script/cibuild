@@ -1,3 +1,4 @@
-set -e
+set -ex
 
 bundle exec rake test
+bundle exec rubocop

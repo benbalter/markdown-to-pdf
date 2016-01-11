@@ -1,16 +1,16 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 ruby File.read('.ruby-version').strip
 
-gem "sinatra"
-gem "octokit"
-gem "pdfkit"
-gem "dotenv"
-gem "rack-ssl-enforcer"
-gem "foreman"
+gem 'sinatra'
+gem 'octokit'
+gem 'pdfkit'
+gem 'dotenv'
+gem 'rack-ssl-enforcer'
+gem 'foreman'
 
 group :production do
-  gem 'wkhtmltopdf-heroku' 
+  gem 'wkhtmltopdf-heroku'
 end
 
 group :development, :test do
@@ -18,10 +18,11 @@ group :development, :test do
 end
 
 group :test do
-  gem "rake"
-  gem "vcr"
-  gem "shoulda"
-  gem "bundler"
-  gem "webmock"
-  gem "rack-test"
+  gem 'rake'
+  gem 'vcr'
+  gem 'shoulda'
+  gem 'bundler'
+  gem 'webmock'
+  gem 'rack-test'
+  gem 'rubocop'
 end
