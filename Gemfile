@@ -10,7 +10,7 @@ gem "rack-ssl-enforcer"
 gem "foreman"
 
 group :production do
-  gem 'wkhtmltopdf-heroku', require: 'wkhtmltopdf-heroku'
+  gem 'wkhtmltopdf-heroku' 
 end
 
 group :development, :test do

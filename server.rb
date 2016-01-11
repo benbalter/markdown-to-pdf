@@ -11,6 +11,7 @@ module MarkdownToPDF
     end
 
     configure :production do
+      require 'wkhtmltopdf-heroku'
       require 'rack-ssl-enforcer'
       use Rack::SslEnforcer
     end
