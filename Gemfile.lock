@@ -29,7 +29,7 @@ GEM
       ast (>= 1.1, < 3.0)
     pdfkit (0.8.2)
     powerpack (0.1.1)
-    rack (1.6.4)
+    rack (1.6.13)
     rack-protection (1.5.3)
       rack
     rack-ssl-enforcer (0.2.9)
